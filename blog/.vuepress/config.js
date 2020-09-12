@@ -22,7 +22,7 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#dateformat
      */
 
-    // dateFormat: 'YYYY-MM-DD',
+    dateFormat: 'YYYY-MM-DD',
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#nav
@@ -116,10 +116,10 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#comment
      */
 
-    // comment: {
-    //   service: 'disqus',
-    //   shortname: 'vuepress-plugin-blog',
-    // },
+    comment: {
+      service: 'disqus',
+      shortname: 'Echo Ji Blog',
+    },
 
     /**
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#newsletter
@@ -165,6 +165,17 @@ module.exports = {
      * Ref: https://vuepress-theme-blog.ulivz.com/config/#smoothscroll
      */
 
-    // smoothScroll: true
+    smoothScroll: true,
+
+    lastUpdated: 'Last Updated',
+
+    // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
+    nextLinks: true,
+    // 默认值是 true 。设置为 false 来禁用所有页面的 上一篇 链接
+    prevLinks: true,
   },
+  // /**
+  //  * Ref: https://vuepress.vuejs.org/zh/plugin/official/plugin-last-updated.html
+  //  */
+  // plugins: ['@vuepress/last-updated'],
 }
