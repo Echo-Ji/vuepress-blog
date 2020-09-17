@@ -12,6 +12,6 @@ public
 config.local.js
 basement_dist
 blog/.vuepress/dist
-blog/.vuepress/public
+# blog/.vuepress/public
 yarn.lock
 .vscode
