@@ -170,7 +170,7 @@ module.exports = {
 
     smoothScroll: true,
 
-    lastUpdated: '上次更新',
+    // lastUpdated: '上次更新',
 
     // // 默认值是 true 。设置为 false 来禁用所有页面的 下一篇 链接
     // nextLinks: true,
@@ -180,5 +180,8 @@ module.exports = {
   // /**
   //  * Ref: https://vuepress.vuejs.org/zh/plugin/official/plugin-last-updated.html
   //  */
-  // plugins: ['@vuepress/last-updated'],
+  plugins: [
+    // '@vuepress/last-updated',
+    '@vuepress/medium-zoom'
+  ],
 }
