@@ -10,4 +10,4 @@ set -v
 
 git add -A
 git commit -m "$comment"
-git push
+# git push
